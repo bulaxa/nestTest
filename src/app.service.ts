@@ -2,11 +2,15 @@ import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class AppService {
-    let b = 12;
-  if (a) {
+
+  getValue(){
+    const b = 12;
+    if (b) {
+      return b;
+    }
     return b;
   }
-  return b;
+  
     
   }
 }
